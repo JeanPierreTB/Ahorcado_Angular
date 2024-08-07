@@ -1,0 +1,39 @@
+.ahorcado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+
+}
+
+.ahorcado .titulo{
+    text-align: center;
+}
+
+.ahorcado .cajas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:200px;
+    
+}
+
+.ahorcado .inputs{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.ahorcado #des{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.ahorcado #boton{
+    margin-left: 600px;
+}
